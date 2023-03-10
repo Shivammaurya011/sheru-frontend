@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@100;800;900&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins;
+}
+.navBar{
+    padding: 0 55px;
+}
+.navBar i{
+    margin-top: 5px;
+}
+.logo{
+    font-family: 'Alatsi', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.mainDiv{
+    background: url(./assects/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+.heading{
+    height: 100%;
+    width: 100%;
+    padding: 6% 12%;
+    opacity: 0.8;
+    background: black;
+}
+.nextDiv{
+    background: url(./assects/bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 350px;
+    width: 100%;
+}
+.nextDivSub{
+    height: 100%;
+    width: 100%;
+    padding: 6% 12%;
+    opacity: 0.8;
+    background: black;
+}
+hr{
+    width: 10%;
+}
+.size{
+    width: 350px;
+}
+.socalMedia{
+    margin: 0 5px;
+    color: grey;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
